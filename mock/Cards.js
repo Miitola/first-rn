@@ -3,6 +3,9 @@ import Google from "../assets/icons8-google-480.png";
 import Microsoft from "../assets/icons8-microsoft-480.png";
 import Apple from "../assets/icons8-apple-500.png";
 import Amazon from "../assets/icons8-amazon-480.png";
+import Watsapp from "../assets/watsapp.jpeg";
+import Linklden from "../assets/lkdn.png";
+import MS from "../assets/ms copy.png";
 
 export const Cards = [
   {
@@ -55,24 +58,25 @@ export const Cards = [
     color: "#19A6F0",
     image: Microsoft,
   },
+  
   {
-    id: 3,
+    id: 6,
     description:"Salary",
-    title: "System Architect",
-    text: "Apple",
-    salary: 250000,
-    location: "London",
-    color: "black",
-    image: Apple,
+    title: "Watsapp",
+    text: "messanger",
+    salary: 150000,
+    location: "USA",
+    color: "green",
+    image: Watsapp,
   },
   {
-    id: 3,
+    id: 7,
     description:"Salary",
-    title: "System Architect",
-    text: "Apple",
-    salary: 250000,
-    location: "London",
-    color: "black",
-    image: Apple,
-  },
+    title: "Dev Ops",
+    text: "MS Teams",
+    salary: 200000,
+    location: "SanFrancisco",
+    color: "grey",
+    image: MS,
+  }, 
 ];
